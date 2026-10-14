@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640">
+  <rect width="1280" height="640" fill="#0f1419"/>
+  <!-- motif: reel (phone) -> agent -> repo -->
+  <g transform="translate(700,150)" stroke-linecap="round" stroke-linejoin="round">
+    <!-- phone with play button -->
+    <rect x="0" y="60" width="96" height="170" rx="16" fill="none" stroke="#f472b6" stroke-width="6"/>
+    <path d="M38 122 l28 23 l-28 23 z" fill="#f472b6"/>
+    <line x1="34" y1="212" x2="62" y2="212" stroke="#f472b6" stroke-width="5"/>
+    <!-- arrow -->
+    <line x1="118" y1="145" x2="188" y2="145" stroke="#3a4552" stroke-width="6" stroke-dasharray="4 16"/>
+    <!-- agent: sparkle -->
+    <circle cx="250" cy="145" r="52" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-width="6"/>
+    <path d="M250 112 q6 27 33 33 q-27 6 -33 33 q-6 -27 -33 -33 q27 -6 33 -33 z" fill="#a78bfa"/>
+    <!-- arrow -->
+    <line x1="314" y1="145" x2="384" y2="145" stroke="#4fd1c5" stroke-width="6"/>
+    <!-- repo: branching graph -->
+    <rect x="396" y="70" width="150" height="150" rx="14" fill="#4fd1c5" fill-opacity="0.12" stroke="#4fd1c5" stroke-width="6"/>
+    <circle cx="436" cy="110" r="10" fill="#4fd1c5"/>
+    <circle cx="436" cy="180" r="10" fill="#4fd1c5"/>
+    <circle cx="506" cy="130" r="10" fill="#4fd1c5"/>
+    <path d="M436 120 v50 M436 150 q0 -20 60 -20" fill="none" stroke="#4fd1c5" stroke-width="5"/>
+    <text x="48" y="280" fill="#9aa5b1" font-family="system-ui, -apple-system, sans-serif" font-size="22" text-anchor="middle">reel</text>
+    <text x="250" y="280" fill="#9aa5b1" font-family="system-ui, -apple-system, sans-serif" font-size="22" text-anchor="middle">/research</text>
+    <text x="471" y="280" fill="#9aa5b1" font-family="system-ui, -apple-system, sans-serif" font-size="22" text-anchor="middle">new repo</text>
+  </g>
+  <text x="80" y="110" fill="#a78bfa" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" letter-spacing="3">BUILD · CLAUDE CODE SKILL</text>
+  <text font-family="system-ui, -apple-system, sans-serif" font-weight="800" fill="#ffffff" font-size="72">
+    <tspan x="80" y="225">Reel → Repo</tspan>
+  </text>
+  <text font-family="system-ui, -apple-system, sans-serif" fill="#c3cbd4" font-size="28">
+    <tspan x="80" y="310">Paste a link. Get a researched,</tspan>
+    <tspan x="80" y="350">fact-checked case study on GitHub.</tspan>
+  </text>
+  <text font-family="system-ui, -apple-system, sans-serif" fill="#6b7785" font-size="24">
+    <tspan x="80" y="420">No buttons · no API keys · $0 per run</tspan>
+  </text>
+  <rect x="80" y="500" width="60" height="6" rx="3" fill="#a78bfa"/>
+  <text x="80" y="550" fill="#6b7785" font-family="system-ui, -apple-system, sans-serif" font-size="22">build · 2026-10-13</text>
+</svg>
